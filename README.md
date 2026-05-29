@@ -8,8 +8,6 @@ A native macOS IPTV player with HLS/DASH playback, ClearKey DRM, pipe-format pla
 
 Determine which version is right for your MacBook:
 
-![StreamIPL Download Architecture Guide](./assets/download-guide.svg)
-
 <div align="center">
   <br />
   <table width="100%" style="border-collapse: collapse; border: none;">
