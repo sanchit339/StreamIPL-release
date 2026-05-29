@@ -24,17 +24,45 @@ A native macOS IPTV player with HLS/DASH playback, ClearKey DRM, pipe-format pla
 - Manual Inspect/DevTools toggle from Settings
 - Apple-style dark desktop UI theme
 
-## Download
-[![Download Latest Release](https://img.shields.io/badge/Download-macOS_App-blue?style=for-the-badge&logo=apple)](https://github.com/sanchit339/StreamIPL-release/releases/latest)
+## 📥 Download StreamIPL
 
-Head to the [Releases](https://github.com/sanchit339/StreamIPL-release/releases/latest) page and download the build for your Mac's chip:
+Determine which version is right for your MacBook:
 
-| File | Chip |
-|------|------|
-| `StreamIPL-x.x.x-arm64.dmg` | Apple Silicon (M1 / M2 / M3 / M4) |
-| `StreamIPL-x.x.x-x64.dmg` | Intel |
+![StreamIPL Download Architecture Guide](./assets/download-guide.svg)
 
+<div align="center">
+  <br />
+  <table width="100%" style="border-collapse: collapse; border: none;">
+    <tr style="border: none;">
+      <td align="center" width="50%" style="border: none; padding: 15px; background: #16161a; border-radius: 12px 0 0 12px;">
+        <img src="https://img.shields.io/badge/Mac_with-Apple_Silicon-007AFF?style=for-the-badge&logo=apple&logoColor=white" height="35" alt="Apple Silicon Badge" />
+        <p><strong>For Newer MacBooks</strong><br/>M1, M2, M3, M4, M5 Chips</p>
+        <a href="https://github.com/sanchit339/StreamIPL-release/releases/latest">
+          <img src="https://img.shields.io/badge/Download_dmg-ARM64-34C759?style=for-the-badge" height="35" alt="Download Apple Silicon" />
+        </a>
+        <br/><br/>
+        <code>StreamIPL-x.x.x-arm64.dmg</code>
+      </td>
+      <td align="center" width="50%" style="border: none; padding: 15px; background: #1c1c21; border-radius: 0 12px 12px 0;">
+        <img src="https://img.shields.io/badge/Mac_with-Intel_Processor-525252?style=for-the-badge&logo=intel&logoColor=white" height="35" alt="Intel Mac Badge" />
+        <p><strong>For Older MacBooks</strong><br/>Intel Core i5, i7, i9 Processors</p>
+        <a href="https://github.com/sanchit339/StreamIPL-release/releases/latest">
+          <img src="https://img.shields.io/badge/Download_dmg-x64_/_Intel-34C759?style=for-the-badge" height="35" alt="Download Intel Mac" />
+        </a>
+        <br/><br/>
+        <code>StreamIPL-x.x.x-x64.dmg</code>
+      </td>
+    </tr>
+  </table>
+  <br />
+</div>
+
+> [!NOTE]
 > **Why separate files?** Universal binaries (single DMG for both chips) that are unsigned trigger macOS Gatekeeper's "damaged app" error on modern macOS versions. Distributing architecture-specific builds avoids this completely.
+
+> [!IMPORTANT]
+> **About GitHub's "Source Code" links below:** GitHub automatically attaches "Source code (zip/tar.gz)" links to all public releases. Since this is a public release tracker, those files contain only this documentation repository (README and assets), **not** the private source code of the application. Please download the `.dmg` files above to install.
+
 
 ## Installation
 1. Download the `.dmg` for **your chip** (see table above).
