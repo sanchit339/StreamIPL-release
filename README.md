@@ -4,6 +4,18 @@ A native macOS IPTV player with HLS/DASH playback, ClearKey DRM, pipe-format pla
 
 ---
 
+> [!CAUTION]
+> **⚠️ Read this before launching the app — macOS will block it otherwise.**
+>
+> After installing, open **Terminal** and run this command **once**:
+> ```bash
+> xattr -d com.apple.quarantine /Applications/StreamIPL.app
+> ```
+> Then double-click the app normally. This removes the macOS quarantine flag that causes the *"StreamIPL is damaged"* error. It is safe and does not disable any security features.
+
+---
+
+
 ## 📥 Download StreamIPL
 
 Determine which version is right for your MacBook:
