@@ -1,105 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%" height="100%" style="background:#0F0F11; border-radius:16px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
-  <defs>
-    <!-- Gradients -->
-    <linearGradient id="appleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2F80ED" />
-      <stop offset="100%" stop-color="#B294FF" />
-    </linearGradient>
-    <linearGradient id="intelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#8E9EAB" />
-      <stop offset="100%" stop-color="#EEF2F3" />
-    </linearGradient>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#141416" />
-      <stop offset="50%" stop-color="#1A1A1E" />
-      <stop offset="100%" stop-color="#141416" />
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="100%" style="background:#161617; border-radius:12px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',SF Pro,Helvetica,Arial,sans-serif;">
+  <!-- Border -->
+  <rect width="100%" height="100%" fill="none" stroke="#333336" stroke-width="1.5" rx="12" />
 
-  <style>
-    .pulse {
-      animation: pulse-glow 2s infinite ease-in-out;
-    }
-    @keyframes pulse-glow {
-      0%, 100% { opacity: 0.3; transform: scale(1); }
-      50% { opacity: 0.9; transform: scale(1.15); }
-    }
-  </style>
-
-  <!-- Background -->
-  <rect width="100%" height="100%" fill="url(#bgGrad)" rx="16" />
-  <rect width="100%" height="100%" fill="none" stroke="#2D2D34" stroke-width="1.5" rx="16" />
-
-  <!-- Title / Header -->
-  <text x="400" y="40" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" letter-spacing="1">CHOOSE YOUR DOWNLOAD ARCHITECTURE</text>
-  <text x="400" y="60" text-anchor="middle" fill="#8E8E93" font-size="12">Get the optimized version for your specific MacBook hardware</text>
+  <!-- Header -->
+  <text x="40" y="45" fill="#F5F5F7" font-size="19" font-weight="600" letter-spacing="-0.022em">Select your hardware architecture</text>
+  <text x="40" y="68" fill="#86868B" font-size="13" font-weight="400">Download the version specifically compiled for your MacBook's processor.</text>
 
   <!-- LEFT COLUMN: APPLE SILICON -->
-  <g transform="translate(40, 80)">
-    <!-- Card Background -->
-    <rect width="340" height="135" rx="12" fill="#1C1C1E" stroke="url(#appleGrad)" stroke-width="1.5" />
+  <g transform="translate(40, 95)">
+    <!-- Thin card outline -->
+    <rect width="345" height="110" rx="10" fill="#1C1C1E" stroke="#333336" stroke-width="1" />
     
-    <!-- Official Apple Icon (Prise Scale & Translation) -->
-    <g transform="translate(25, 20) scale(0.32)">
-      <path d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.19-2.12-9.97-3.17-14.34-3.17-4.58 0-9.49 1.05-14.75 3.17-5.26 2.13-9.5 3.24-12.74 3.35-4.34.13-9.13-1.92-14.37-6.15-2.82-2.38-6.59-6.84-11.31-13.38-5.35-7.41-9.87-16.14-13.57-26.2C.54 102.64-1.32 87.52 1.39 71.93c2.72-15.54 9.34-27.88 19.86-37 10.51-9.13 22.45-13.75 35.81-13.88 7.02 0 14.37 2 22.04 6.02 7.68 4.02 12.4 6.02 16.17 6.02 3.17 0 7.78-1.96 13.83-5.9 6.04-3.92 12.83-5.93 20.35-6.02 14.3.38 25.63 5.37 34 14.93-13.53 8.16-20.17 19.78-19.92 34.82.26 11.66 4.7 21.2 13.32 28.61 8.62 7.4 18.73 11.32 30.34 11.75-2.47 7.02-5.7 13.36-9.68 19.01zM119.22 25.6c0-7.78 2.76-14.88 8.27-21.3 6.69-7.72 14.86-11.75 24.16-11.9 1 9.04-2.17 17.18-8.1 23.35-5.93 6.17-13.9 9.94-23.08 10.15-.36-.08-.66-.17-.9-.23-.23-.07-.35-.07-.35-.07z" fill="url(#appleGrad)"/>
+    <!-- Authentic Apple Logo Silhouette in Pure Premium White/Silver -->
+    <g transform="translate(24, 18) scale(0.24)">
+      <path d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.19-2.12-9.97-3.17-14.34-3.17-4.58 0-9.49 1.05-14.75 3.17-5.26 2.13-9.5 3.24-12.74 3.35-4.34.13-9.13-1.92-14.37-6.15-2.82-2.38-6.59-6.84-11.31-13.38-5.35-7.41-9.87-16.14-13.57-26.2C.54 102.64-1.32 87.52 1.39 71.93c2.72-15.54 9.34-27.88 19.86-37 10.51-9.13 22.45-13.75 35.81-13.88 7.02 0 14.37 2 22.04 6.02 7.68 4.02 12.4 6.02 16.17 6.02 3.17 0 7.78-1.96 13.83-5.9 6.04-3.92 12.83-5.93 20.35-6.02 14.3.38 25.63 5.37 34 14.93-13.53 8.16-20.17 19.78-19.92 34.82.26 11.66 4.7 21.2 13.32 28.61 8.62 7.4 18.73 11.32 30.34 11.75-2.47 7.02-5.7 13.36-9.68 19.01zM119.22 25.6c0-7.78 2.76-14.88 8.27-21.3 6.69-7.72 14.86-11.75 24.16-11.9 1 9.04-2.17 17.18-8.1 23.35-5.93 6.17-13.9 9.94-23.08 10.15-.36-.08-.66-.17-.9-.23-.23-.07-.35-.07-.35-.07z" fill="#F5F5F7"/>
     </g>
-    
-    <text x="85" y="38" fill="#FFFFFF" font-size="16" font-weight="700">Apple Silicon</text>
-    <text x="85" y="54" fill="#8E8E93" font-size="11">Newer Chip (M1 / M2 / M3 / M4 / M5)</text>
-    
-    <!-- Divider -->
-    <line x1="20" y1="75" x2="320" y2="75" stroke="#2D2D34" stroke-width="1" />
-    
-    <!-- Filename info -->
-    <text x="20" y="100" fill="#2F80ED" font-size="11" font-weight="600" letter-spacing="0.5">DOWNLOAD FILE:</text>
-    <text x="20" y="117" fill="#FFFFFF" font-size="13" font-weight="600">StreamIPL-x.x.x-arm64.dmg</text>
-    
-    <!-- Pulsing Indicator -->
-    <circle cx="310" cy="105" r="8" fill="#2F80ED" class="pulse" style="transform-origin: 310px 105px;" />
-    <circle cx="310" cy="105" r="4" fill="#2F80ED" />
+
+    <text x="75" y="38" fill="#F5F5F7" font-size="15" font-weight="600" letter-spacing="-0.01em">Apple Silicon</text>
+    <text x="75" y="55" fill="#86868B" font-size="12" font-weight="400">M1, M2, M3, M4, or M5 chip</text>
+
+    <text x="24" y="88" fill="#86868B" font-size="10" font-weight="500" letter-spacing="0.06em">RECOMMENDED FOR MODERN MACS</text>
   </g>
 
-  <!-- RIGHT COLUMN: INTEL MAC -->
-  <g transform="translate(420, 80)">
-    <!-- Card Background -->
-    <rect width="340" height="135" rx="12" fill="#1C1C1E" stroke="url(#intelGrad)" stroke-width="1.5" />
+  <!-- RIGHT COLUMN: INTEL PROCESSOR -->
+  <g transform="translate(415, 95)">
+    <!-- Thin card outline -->
+    <rect width="345" height="110" rx="10" fill="#1C1C1E" stroke="#333336" stroke-width="1" />
     
-    <!-- CPU / Intel Icon (Perfect Geometric Microchip) -->
-    <g transform="translate(25, 20)">
-      <rect x="0" y="0" width="40" height="40" rx="8" fill="#151518" stroke="url(#intelGrad)" stroke-width="2" />
-      <rect x="8" y="8" width="24" height="24" rx="4" fill="url(#intelGrad)" opacity="0.15" />
-      <rect x="12" y="12" width="16" height="16" rx="2" fill="url(#intelGrad)" />
-      
-      <!-- Outer connector pins -->
-      <line x1="10" y1="-4" x2="10" y2="0" stroke="url(#intelGrad)" stroke-width="2" />
-      <line x1="20" y1="-4" x2="20" y2="0" stroke="url(#intelGrad)" stroke-width="2" />
-      <line x1="30" y1="-4" x2="30" y2="0" stroke="url(#intelGrad)" stroke-width="2" />
-      
-      <line x1="10" y1="40" x2="10" y2="44" stroke="url(#intelGrad)" stroke-width="2" />
-      <line x1="20" y1="40" x2="20" y2="44" stroke="url(#intelGrad)" stroke-width="2" />
-      <line x1="30" y1="40" x2="30" y2="44" stroke="url(#intelGrad)" stroke-width="2" />
-      
-      <line x1="-4" y1="10" x2="0" y2="10" stroke="url(#intelGrad)" stroke-width="2" />
-      <line x1="-4" y1="20" x2="0" y2="20" stroke="url(#intelGrad)" stroke-width="2" />
-      <line x1="-4" y1="30" x2="0" y2="30" stroke="url(#intelGrad)" stroke-width="2" />
-      
-      <line x1="40" y1="10" x2="44" y2="10" stroke="url(#intelGrad)" stroke-width="2" />
-      <line x1="40" y1="20" x2="44" y2="20" stroke="url(#intelGrad)" stroke-width="2" />
-      <line x1="40" y1="30" x2="44" y2="30" stroke="url(#intelGrad)" stroke-width="2" />
+    <!-- Formal Mac Laptop Icon -->
+    <g transform="translate(24, 20)">
+      <!-- MacBook Screen -->
+      <rect x="2" y="2" width="32" height="18" rx="2" fill="none" stroke="#86868B" stroke-width="2.2" />
+      <!-- MacBook Base -->
+      <path d="M 0,22 L 36,22 L 34,25 L 2,25 Z" fill="#86868B" />
+      <!-- Center opening notch -->
+      <rect x="15" y="22" width="6" height="1.2" fill="#1C1C1E" />
     </g>
-    
-    <text x="85" y="38" fill="#FFFFFF" font-size="16" font-weight="700">Intel Mac</text>
-    <text x="85" y="54" fill="#8E8E93" font-size="11">Older MacBooks (Core i5 / i7 / i9)</text>
-    
-    <!-- Divider -->
-    <line x1="20" y1="75" x2="320" y2="75" stroke="#2D2D34" stroke-width="1" />
-    
-    <!-- Filename info -->
-    <text x="20" y="100" fill="#8E9EAB" font-size="11" font-weight="600" letter-spacing="0.5">DOWNLOAD FILE:</text>
-    <text x="20" y="117" fill="#FFFFFF" font-size="13" font-weight="600">StreamIPL-x.x.x-x64.dmg</text>
-    
-    <!-- Pulsing Indicator -->
-    <circle cx="310" cy="105" r="8" fill="#8E9EAB" class="pulse" style="transform-origin: 310px 105px;" />
-    <circle cx="310" cy="105" r="4" fill="#8E9EAB" />
+
+    <text x="75" y="38" fill="#F5F5F7" font-size="15" font-weight="600" letter-spacing="-0.01em">Intel Processor</text>
+    <text x="75" y="55" fill="#86868B" font-size="12" font-weight="400">Intel Core i5, i7, or i9 processor</text>
+
+    <text x="24" y="88" fill="#86868B" font-size="10" font-weight="500" letter-spacing="0.06em">COMPATIBLE WITH OLDER MACS</text>
   </g>
 </svg>

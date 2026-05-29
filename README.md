@@ -14,23 +14,21 @@ Determine which version is right for your MacBook:
   <br />
   <table width="100%" style="border-collapse: collapse; border: none;">
     <tr style="border: none;">
-      <td align="center" width="50%" style="border: none; padding: 15px; background: #16161a; border-radius: 12px 0 0 12px;">
-        <img src="https://img.shields.io/badge/Mac_with-Apple_Silicon-007AFF?style=for-the-badge&logo=apple&logoColor=white" height="35" alt="Apple Silicon Badge" />
-        <p><strong>For Newer MacBooks</strong><br/>M1, M2, M3, M4, M5 Chips</p>
+      <td align="center" width="50%" style="border: none; padding: 15px; background: #1C1C1E; border-radius: 12px 0 0 12px;">
+        <p style="margin-top: 0;"><strong style="color: #F5F5F7;">Mac with Apple Silicon</strong><br/><span style="color: #86868B; font-size: 12px;">M1, M2, M3, M4, M5 Chips</span></p>
         <a href="https://github.com/sanchit339/StreamIPL-release/releases/latest">
-          <img src="https://img.shields.io/badge/Download_dmg-ARM64-34C759?style=for-the-badge" height="35" alt="Download Apple Silicon" />
+          <img src="https://img.shields.io/badge/Download-Apple_Silicon-ffffff?style=for-the-badge&logo=apple&logoColor=000000" height="35" alt="Download Apple Silicon" />
         </a>
         <br/><br/>
-        <code>StreamIPL-x.x.x-arm64.dmg</code>
+        <code style="color: #86868B; font-size: 11px;">StreamIPL-x.x.x-arm64.dmg</code>
       </td>
-      <td align="center" width="50%" style="border: none; padding: 15px; background: #1c1c21; border-radius: 0 12px 12px 0;">
-        <img src="https://img.shields.io/badge/Mac_with-Intel_Processor-525252?style=for-the-badge&logo=intel&logoColor=white" height="35" alt="Intel Mac Badge" />
-        <p><strong>For Older MacBooks</strong><br/>Intel Core i5, i7, i9 Processors</p>
+      <td align="center" width="50%" style="border: none; padding: 15px; background: #1C1C1E; border-radius: 0 12px 12px 0; border-left: 1px solid #333336;">
+        <p style="margin-top: 0;"><strong style="color: #F5F5F7;">Mac with Intel Processor</strong><br/><span style="color: #86868B; font-size: 12px;">Intel Core i5, i7, i9 Processors</span></p>
         <a href="https://github.com/sanchit339/StreamIPL-release/releases/latest">
-          <img src="https://img.shields.io/badge/Download_dmg-x64_/_Intel-34C759?style=for-the-badge" height="35" alt="Download Intel Mac" />
+          <img src="https://img.shields.io/badge/Download-Intel_Processor-86868B?style=for-the-badge&logo=apple&logoColor=ffffff" height="35" alt="Download Intel Mac" />
         </a>
         <br/><br/>
-        <code>StreamIPL-x.x.x-x64.dmg</code>
+        <code style="color: #86868B; font-size: 11px;">StreamIPL-x.x.x-x64.dmg</code>
       </td>
     </tr>
   </table>
