@@ -2,27 +2,7 @@
 
 A native macOS IPTV player with HLS/DASH playback, ClearKey DRM, pipe-format playlist URLs, and automatic update notifications.
 
-> [!IMPORTANT]
-> **macOS says "StreamIPL is damaged"?** This is a Gatekeeper quarantine flag — the app is fine.
-> Open **Terminal** and run:
-> ```bash
-> xattr -d com.apple.quarantine /Applications/StreamIPL.app
-> ```
-> Then double-click the app. Done. See [Installation](#installation) for details.
-
-## Preview
-![StreamIPL app showcase](./assets/screenshots/streamipl-app-showcase.png)
-
-## Features
-- HLS and DASH playback (`.m3u8`, `.mpd`)
-- ClearKey DRM support
-- Pipe-format URL parsing with cookie and header injection
-- Playlist management (save, delete, search, load)
-- 60-second catch-up buffer for smoother live viewing
-- `-60s` quick replay control in player controls
-- In-app release update notification from GitHub Releases
-- Manual Inspect/DevTools toggle from Settings
-- Apple-style dark desktop UI theme
+---
 
 ## 📥 Download StreamIPL
 
@@ -62,6 +42,30 @@ Determine which version is right for your MacBook:
 
 > [!IMPORTANT]
 > **About GitHub's "Source Code" links below:** GitHub automatically attaches "Source code (zip/tar.gz)" links to all public releases. Since this is a public release tracker, those files contain only this documentation repository (README and assets), **not** the private source code of the application. Please download the `.dmg` files above to install.
+
+---
+
+> [!IMPORTANT]
+> **macOS says "StreamIPL is damaged"?** This is a Gatekeeper quarantine flag — the app is fine.
+> Open **Terminal** and run:
+> ```bash
+> xattr -d com.apple.quarantine /Applications/StreamIPL.app
+> ```
+> Then double-click the app. Done. See [Installation](#installation) for details.
+
+## Preview
+![StreamIPL app showcase](./assets/screenshots/streamipl-app-showcase.png)
+
+## Features
+- HLS and DASH playback (`.m3u8`, `.mpd`)
+- ClearKey DRM support
+- Pipe-format URL parsing with cookie and header injection
+- Playlist management (save, delete, search, load)
+- 60-second catch-up buffer for smoother live viewing
+- `-60s` quick replay control in player controls
+- In-app release update notification from GitHub Releases
+- Manual Inspect/DevTools toggle from Settings
+- Apple-style dark desktop UI theme
 
 
 ## Installation
